@@ -30,7 +30,7 @@ def process_traceroute_file(file_path, time_of_day):
     if len(hop_rtts) > 1:
         target_rtt = hop_rtts.pop() 
     else:
-        return None # Discard failed traces that didn't reach the destination
+        return None 
         
     # các features
     return {
@@ -56,6 +56,6 @@ for file in glob("traceroute_data/*.txt"):
     if parsed_data:
         data_records.append(parsed_data)
 
-# Generate final DataFrame ready for Linear Regression
+
 df = pd.DataFrame(data_records)
 print(df.head())

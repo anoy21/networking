@@ -1,0 +1,30 @@
+=== PING TARGET ===
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=19ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=20ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=19ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=20ms TTL=118
+Reply from 8.8.8.8: bytes=32 time=19ms TTL=118
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 19ms, Maximum = 20ms, Average = 19ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to 8.8.8.8 over a maximum of 30 hops
+
+  1    <1 ms    <1 ms    <1 ms  192.168.100.1 
+  2     5 ms     2 ms     2 ms  113.22.0.121 
+  3     2 ms     2 ms     2 ms  42.112.3.44 
+  4     2 ms     1 ms     2 ms  118.70.1.124 
+  5     2 ms     2 ms     2 ms  118.70.1.125 
+  6    21 ms    21 ms    21 ms  118.69.253.73 
+  7    20 ms    19 ms    19 ms  74.125.32.112 
+  8    22 ms    21 ms    21 ms  142.251.67.15 
+  9    23 ms    23 ms    23 ms  216.239.43.61 
+ 10    19 ms    20 ms    20 ms  8.8.8.8 
+
+Trace complete.

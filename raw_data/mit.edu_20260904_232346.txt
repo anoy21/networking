@@ -1,0 +1,29 @@
+=== PING TARGET ===
+
+Pinging mit.edu [2600:1417:76:4a0::255e] with 32 bytes of data:
+Reply from 2600:1417:76:4a0::255e: time=43ms 
+Reply from 2600:1417:76:4a0::255e: time=42ms 
+Reply from 2600:1417:76:4a0::255e: time=42ms 
+Reply from 2600:1417:76:4a0::255e: time=42ms 
+Reply from 2600:1417:76:4a0::255e: time=43ms 
+
+Ping statistics for 2600:1417:76:4a0::255e:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 42ms, Maximum = 43ms, Average = 42ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to mit.edu [2600:1417:76:4a0::255e]
+over a maximum of 30 hops:
+
+  1     *       <1 ms    <1 ms  2405:4802:1bb2:d90::1 
+  2     2 ms     2 ms     2 ms  2405:4800:f000::82 
+  3     *        *        *     Request timed out.
+  4     3 ms     3 ms     2 ms  2405:4800::271 
+  5    24 ms    25 ms    24 ms  2405:4800::102:1111:2a 
+  6    37 ms    37 ms    37 ms  2400:8800:1f13:1d::1 
+  7    50 ms    44 ms    47 ms  2400:8800:1f13:1d::2 
+  8    42 ms    42 ms    42 ms  2600:1417:76:4a0::255e 
+
+Trace complete.

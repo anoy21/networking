@@ -78,3 +78,4 @@ for file_path in recent_files:
 
 df = pd.DataFrame(data_records)
 print(df.head(12))
+df.to_csv("final_network_data.csv", index=False)

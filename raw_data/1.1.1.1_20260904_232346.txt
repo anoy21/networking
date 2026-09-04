@@ -1,0 +1,31 @@
+=== PING TARGET ===
+
+Pinging 1.1.1.1 with 32 bytes of data:
+Reply from 1.1.1.1: bytes=32 time=26ms TTL=57
+Reply from 1.1.1.1: bytes=32 time=26ms TTL=57
+Reply from 1.1.1.1: bytes=32 time=25ms TTL=57
+Reply from 1.1.1.1: bytes=32 time=25ms TTL=57
+Reply from 1.1.1.1: bytes=32 time=26ms TTL=57
+
+Ping statistics for 1.1.1.1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 25ms, Maximum = 26ms, Average = 25ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to 1.1.1.1 over a maximum of 30 hops
+
+  1     1 ms     *       <1 ms  192.168.100.1 
+  2     2 ms     2 ms     2 ms  113.22.0.121 
+  3     *        *        *     Request timed out.
+  4     3 ms     2 ms     2 ms  118.69.189.84 
+  5     6 ms     5 ms     3 ms  118.70.1.121 
+  6     2 ms     2 ms     3 ms  1.53.123.85 
+  7    21 ms    21 ms    21 ms  118.69.253.73 
+  8    25 ms    24 ms    24 ms  118.69.184.73 
+  9    28 ms    76 ms     *     103.22.203.118 
+ 10    26 ms    27 ms    25 ms  103.22.203.25 
+ 11    26 ms    26 ms    25 ms  1.1.1.1 
+
+Trace complete.

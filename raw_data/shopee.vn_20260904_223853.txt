@@ -1,0 +1,31 @@
+=== PING TARGET ===
+
+Pinging shopee.vn [45.119.218.189] with 32 bytes of data:
+Reply from 45.119.218.189: bytes=32 time=82ms TTL=55
+Reply from 45.119.218.189: bytes=32 time=79ms TTL=55
+Reply from 45.119.218.189: bytes=32 time=78ms TTL=55
+Reply from 45.119.218.189: bytes=32 time=77ms TTL=55
+Reply from 45.119.218.189: bytes=32 time=78ms TTL=55
+
+Ping statistics for 45.119.218.189:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 77ms, Maximum = 82ms, Average = 78ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to shopee.vn [45.119.218.189]
+over a maximum of 30 hops:
+
+  1     *        *       <1 ms  192.168.100.1 
+  2    11 ms     9 ms     6 ms  113.22.0.121 
+  3     *        2 ms     1 ms  42.112.3.44 
+  4     *       22 ms     *     42.112.0.193 
+  5    25 ms    23 ms    23 ms  118.68.199.253 
+  6     *       24 ms    23 ms  1.54.1.220 
+  7    24 ms    22 ms    22 ms  103.78.87.5 
+  8     *        *        *     Request timed out.
+  9     *        *        *     Request timed out.
+ 10    78 ms    78 ms    80 ms  45.119.218.189 
+
+Trace complete.

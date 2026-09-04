@@ -1,0 +1,31 @@
+=== PING TARGET ===
+
+Pinging chinhphu.vn [14.225.10.58] with 32 bytes of data:
+Reply from 14.225.10.58: bytes=32 time=5ms TTL=55
+Reply from 14.225.10.58: bytes=32 time=14ms TTL=55
+Reply from 14.225.10.58: bytes=32 time=2ms TTL=55
+Reply from 14.225.10.58: bytes=32 time=3ms TTL=55
+Reply from 14.225.10.58: bytes=32 time=3ms TTL=55
+
+Ping statistics for 14.225.10.58:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 14ms, Average = 5ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to chinhphu.vn [14.225.10.58]
+over a maximum of 30 hops:
+
+  1     *       <1 ms     *     192.168.100.1 
+  2     8 ms     7 ms     8 ms  113.22.0.121 
+  3     4 ms     6 ms     7 ms  42.112.3.28 
+  4     *        4 ms     6 ms  113.22.1.62 
+  5     2 ms     3 ms     1 ms  123.29.16.73 
+  6     *        *        *     Request timed out.
+  7     3 ms     2 ms     3 ms  123.29.6.114 
+  8     2 ms     2 ms     3 ms  203.162.244.161 
+  9     *        *        *     Request timed out.
+ 10     2 ms     2 ms     2 ms  14.225.10.58 
+
+Trace complete.

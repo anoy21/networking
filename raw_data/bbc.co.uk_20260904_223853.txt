@@ -1,0 +1,28 @@
+=== PING TARGET ===
+
+Pinging bbc.co.uk [2a04:4e42:400::81] with 32 bytes of data:
+Reply from 2a04:4e42:400::81: time=51ms 
+Reply from 2a04:4e42:400::81: time=48ms 
+Reply from 2a04:4e42:400::81: time=43ms 
+Reply from 2a04:4e42:400::81: time=44ms 
+Reply from 2a04:4e42:400::81: time=43ms 
+
+Ping statistics for 2a04:4e42:400::81:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 43ms, Maximum = 51ms, Average = 45ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to bbc.co.uk [2a04:4e42:400::81]
+over a maximum of 30 hops:
+
+  1    <1 ms    <1 ms    <1 ms  2405:4802:1bb2:d90::1 
+  2    11 ms     3 ms     4 ms  2405:4800:f000::82 
+  3     *        *        *     Request timed out.
+  4     3 ms     2 ms     3 ms  2405:4800::271 
+  5     *        *        *     Request timed out.
+  6    44 ms    43 ms    43 ms  2405:4800:f003::ed1 
+  7    43 ms    43 ms    42 ms  2a04:4e42:400::81 
+
+Trace complete.

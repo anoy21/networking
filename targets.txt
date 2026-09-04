@@ -1,0 +1,29 @@
+#Trong nước:
+ftu.edu.vn
+vnexpress.net
+zalo.me
+vtv.vn
+shopee.vn
+
+#Châu Á:	
+bilibili.com
+store.steampowered.com
+amazon.sg
+samsung.com
+yahoo.co.jp
+
+#Cự ly xa (Châu Âu, Bắc/Nam Mỹ):
+mit.edu
+bbc.co.uk
+cern.ch
+nytimes.com
+wikipedia.org
+
+#Anycast IP:
+8.8.8.8
+1.1.1.1
+
+#Tường lửa chặn ICMP/Rate-limiting
+microsoft.com
+netflix.com
+chinhphu.vn

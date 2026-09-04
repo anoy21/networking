@@ -48,17 +48,21 @@ def process_traceroute_file(file_path, time_of_day):
         "target_RTT": target_rtt
     }
 
+
 data_records = []
 
-for file_path in glob("raw_data/*.txt"):
+all_files = glob("raw_data/*.txt")
+recent_files = sorted(all_files, key=os.path.getmtime, reverse=True)
+
+for file_path in recent_files:
     filename = os.path.basename(file_path)
     
     try:
         time_str = filename.split('_')[-1].replace('.txt', '')
-        hour = int(time_str[:2])
-
-        # timeframe 
-        if 18 <= hour <= 22:
+        hour = int(time_str[:2]) 
+        
+        # 24H format
+        if 18 <= hour <= 21:
             time_of_day = "peak"
         elif 1 <= hour <= 5:
             time_of_day = "offpeak"
@@ -73,4 +77,4 @@ for file_path in glob("raw_data/*.txt"):
         print(f"Skipping {filename} due to parsing error: {e}")
 
 df = pd.DataFrame(data_records)
-print(df.head())
+print(df.head(12))

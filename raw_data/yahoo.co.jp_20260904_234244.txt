@@ -1,0 +1,37 @@
+=== PING TARGET ===
+
+Pinging yahoo.co.jp [182.22.23.124] with 32 bytes of data:
+Reply from 182.22.23.124: bytes=32 time=70ms TTL=54
+Reply from 182.22.23.124: bytes=32 time=70ms TTL=54
+Reply from 182.22.23.124: bytes=32 time=70ms TTL=54
+Reply from 182.22.23.124: bytes=32 time=69ms TTL=54
+Reply from 182.22.23.124: bytes=32 time=70ms TTL=54
+
+Ping statistics for 182.22.23.124:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 69ms, Maximum = 70ms, Average = 69ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to yahoo.co.jp [182.22.23.124]
+over a maximum of 30 hops:
+
+  1     *        *       <1 ms  192.168.100.1 
+  2     2 ms     2 ms     2 ms  113.22.0.121 
+  3     5 ms     4 ms     5 ms  42.112.3.44 
+  4     2 ms     2 ms     2 ms  118.70.1.124 
+  5     3 ms     1 ms     1 ms  118.70.1.125 
+  6     3 ms     3 ms     2 ms  1.53.123.84 
+  7    24 ms    23 ms    23 ms  118.69.249.26 
+  8    22 ms    22 ms    22 ms  42.112.0.255 
+  9    70 ms    69 ms    70 ms  123.255.91.162 
+ 10    70 ms    71 ms    70 ms  27.85.133.213 
+ 11    72 ms    71 ms    71 ms  27.85.227.109 
+ 12    71 ms    72 ms    72 ms  27.85.227.109 
+ 13    77 ms    72 ms    75 ms  27.86.32.10 
+ 14    70 ms    70 ms    70 ms  111.108.12.174 
+ 15     *        *        *     Request timed out.
+ 16    72 ms    72 ms    73 ms  182.22.23.124 
+
+Trace complete.

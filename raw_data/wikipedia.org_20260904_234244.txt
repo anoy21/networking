@@ -1,0 +1,28 @@
+=== PING TARGET ===
+
+Pinging wikipedia.org [2001:df2:e500:ed1a::1] with 32 bytes of data:
+Reply from 2001:df2:e500:ed1a::1: time=53ms 
+Reply from 2001:df2:e500:ed1a::1: time=53ms 
+Reply from 2001:df2:e500:ed1a::1: time=53ms 
+Reply from 2001:df2:e500:ed1a::1: time=53ms 
+Reply from 2001:df2:e500:ed1a::1: time=53ms 
+
+Ping statistics for 2001:df2:e500:ed1a::1:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 53ms, Maximum = 53ms, Average = 53ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to wikipedia.org [2001:df2:e500:ed1a::1]
+over a maximum of 30 hops:
+
+  1     *        1 ms     1 ms  2405:4802:1bb2:d90::1 
+  2     3 ms     2 ms     2 ms  2405:4800:f000::82 
+  3     5 ms     3 ms     5 ms  2405:4800:f002::45 
+  4     2 ms     2 ms     2 ms  2405:4802:f500::411 
+  5     *        *        *     Request timed out.
+  6    54 ms    53 ms    54 ms  2405:4800:f003::ed1 
+  7    52 ms    54 ms    53 ms  2001:df2:e500:ed1a::1 
+
+Trace complete.

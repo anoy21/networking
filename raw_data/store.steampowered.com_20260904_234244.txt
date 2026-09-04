@@ -1,0 +1,26 @@
+=== PING TARGET ===
+
+Pinging store.steampowered.com [118.68.82.144] with 32 bytes of data:
+Reply from 118.68.82.144: bytes=32 time=2ms TTL=60
+Reply from 118.68.82.144: bytes=32 time=2ms TTL=60
+Reply from 118.68.82.144: bytes=32 time=2ms TTL=60
+Reply from 118.68.82.144: bytes=32 time=2ms TTL=60
+Reply from 118.68.82.144: bytes=32 time=3ms TTL=60
+
+Ping statistics for 118.68.82.144:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 2ms, Maximum = 3ms, Average = 2ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to store.steampowered.com [118.68.82.144]
+over a maximum of 30 hops:
+
+  1     *        1 ms     *     192.168.100.1 
+  2     2 ms     2 ms     1 ms  113.22.0.121 
+  3     2 ms     2 ms     3 ms  42.112.3.28 
+  4     6 ms     5 ms     5 ms  118.68.199.167 
+  5     2 ms     2 ms     3 ms  118.68.82.144 
+
+Trace complete.

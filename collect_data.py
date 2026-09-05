@@ -9,7 +9,7 @@ if not os.path.exists("raw_data"):
     os.makedirs("raw_data")
 
 def get_network_commands(ip):
-    return ["ping", "-n", "5", ip], ["tracert", "-d", "-h", "30", ip]
+    return ["ping", "-n", "5", ip], ["tracert", "-d", "-h", "30", "-w", "1000" ip]
 
 def measure_network(ip):
     ping_cmd, trace_cmd = get_network_commands(ip)
@@ -17,7 +17,7 @@ def measure_network(ip):
     
     try:
         ping_result = subprocess.run(ping_cmd, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=20)
-        trace_result = subprocess.run(trace_cmd, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=60)
+        trace_result = subprocess.run(trace_cmd, capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=120)
         
         filename = f"raw_data/{ip}_{timestamp}.txt"
         with open(filename, "w", encoding="utf-8") as f:

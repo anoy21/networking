@@ -1,5 +1,4 @@
 #Trong nước:
-ftu.edu.vn
 vnexpress.net
 zalo.me
 vtv.vn
@@ -27,3 +26,4 @@ wikipedia.org
 microsoft.com
 netflix.com
 chinhphu.vn
+ftu.edu.vn

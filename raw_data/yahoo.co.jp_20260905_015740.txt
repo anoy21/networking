@@ -1,0 +1,43 @@
+=== PING TARGET ===
+
+Pinging yahoo.co.jp [124.83.190.252] with 32 bytes of data:
+Reply from 124.83.190.252: bytes=32 time=81ms TTL=50
+Reply from 124.83.190.252: bytes=32 time=82ms TTL=50
+Reply from 124.83.190.252: bytes=32 time=82ms TTL=50
+Reply from 124.83.190.252: bytes=32 time=82ms TTL=50
+Reply from 124.83.190.252: bytes=32 time=81ms TTL=50
+
+Ping statistics for 124.83.190.252:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 81ms, Maximum = 82ms, Average = 81ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to yahoo.co.jp [124.83.190.252]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     3 ms     *        *     192.168.1.1 
+  3     2 ms     2 ms     3 ms  100.123.0.150 
+  4     4 ms     1 ms     1 ms  42.117.184.225 
+  5     2 ms     2 ms     2 ms  42.112.2.40 
+  6     5 ms     2 ms     2 ms  42.114.244.73 
+  7     2 ms     2 ms     2 ms  169.254.199.4 
+  8     3 ms     2 ms     3 ms  42.112.2.49 
+  9     2 ms     2 ms     2 ms  118.70.1.124 
+ 10     3 ms     5 ms    16 ms  118.70.1.125 
+ 11     6 ms     5 ms     3 ms  1.53.123.84 
+ 12    24 ms    24 ms    24 ms  118.69.249.26 
+ 13    25 ms    25 ms    26 ms  63.217.16.77 
+ 14    22 ms     *        *     63.218.114.110 
+ 15    22 ms    22 ms    22 ms  63.220.202.133 
+ 16    26 ms    27 ms    26 ms  58.138.84.238 
+ 17    78 ms    75 ms    75 ms  58.138.81.173 
+ 18    83 ms    81 ms    81 ms  58.138.85.39 
+ 19    84 ms    84 ms    85 ms  58.138.106.158 
+ 20    83 ms    82 ms    87 ms  210.138.106.238 
+ 21     *        *        *     Request timed out.
+ 22    81 ms    81 ms    83 ms  124.83.190.252 
+
+Trace complete.

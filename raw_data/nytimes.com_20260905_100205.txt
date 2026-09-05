@@ -1,0 +1,33 @@
+=== PING TARGET ===
+
+Pinging nytimes.com [151.101.65.164] with 32 bytes of data:
+Reply from 151.101.65.164: bytes=32 time=52ms TTL=55
+Reply from 151.101.65.164: bytes=32 time=54ms TTL=55
+Reply from 151.101.65.164: bytes=32 time=51ms TTL=55
+Reply from 151.101.65.164: bytes=32 time=52ms TTL=55
+Reply from 151.101.65.164: bytes=32 time=52ms TTL=55
+
+Ping statistics for 151.101.65.164:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 51ms, Maximum = 54ms, Average = 52ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to nytimes.com [151.101.65.164]
+over a maximum of 30 hops:
+
+  1     *        *        *     Request timed out.
+  2     2 ms     *        1 ms  192.168.1.1 
+  3     2 ms     2 ms     2 ms  100.123.0.133 
+  4     *        *        *     Request timed out.
+  5     2 ms     1 ms     4 ms  100.123.0.167 
+  6     3 ms     2 ms     *     42.112.0.91 
+  7     2 ms     2 ms     2 ms  118.70.1.120 
+  8     2 ms     3 ms     2 ms  118.70.1.121 
+  9     *        *        *     Request timed out.
+ 10    52 ms    51 ms    51 ms  42.116.133.44 
+ 11    54 ms    54 ms     *     23.235.34.98 
+ 12    78 ms    54 ms    53 ms  151.101.65.164 
+
+Trace complete.

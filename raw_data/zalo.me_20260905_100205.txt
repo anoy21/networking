@@ -1,0 +1,32 @@
+=== PING TARGET ===
+
+Pinging zalo.me [49.213.95.151] with 32 bytes of data:
+Reply from 49.213.95.151: bytes=32 time=24ms TTL=54
+Reply from 49.213.95.151: bytes=32 time=22ms TTL=54
+Reply from 49.213.95.151: bytes=32 time=22ms TTL=54
+Reply from 49.213.95.151: bytes=32 time=22ms TTL=54
+Reply from 49.213.95.151: bytes=32 time=23ms TTL=54
+
+Ping statistics for 49.213.95.151:
+    Packets: Sent = 5, Received = 5, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 22ms, Maximum = 24ms, Average = 22ms
+
+=== TRACEROUTE FEATURES ===
+
+Tracing route to zalo.me [49.213.95.151]
+over a maximum of 30 hops:
+
+  1     *       <1 ms     *     192.168.0.1 
+  2     1 ms     1 ms     *     192.168.1.1 
+  3     3 ms     4 ms     2 ms  100.123.0.133 
+  4     *        *        *     Request timed out.
+  5     3 ms     2 ms     2 ms  100.123.0.167 
+  6     *        *        *     Request timed out.
+  7    23 ms    23 ms     *     42.112.0.193 
+  8    26 ms    23 ms    22 ms  118.69.189.40 
+  9    23 ms    23 ms    23 ms  1.54.1.12 
+ 10    23 ms    23 ms    23 ms  49.213.121.40 
+ 11    23 ms    23 ms    27 ms  49.213.95.151 
+
+Trace complete.
